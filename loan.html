@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+
+   body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('1.jpg');
+      background-size:cover ;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .card {
+      color: black;
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 100px;
+      height: 150px;
+      text-align-last: center;  
+      line-height: 42px;
+      width: 600px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-rows: 50px 50px 50px;
+   }
+   .fi{
+      text-decoration: none;
+   }
+   .card p {
+      font-size: 18px;
+   }
+   .cardContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+   @media screen and (max-width: 600px) {
+      .card {
+         width: 100%;
+      }
+   }
+</style>
+</head>
+<body>
+<h1>Short-Term Loans</h1>
+<h2>Available loans here</h2>
+<div class="cardContainer">
+  
+   <a href="apply.php" class="fi">
+      <div class="card" style="background-color:wheat;">
+         <h2>Processing Fees</h2>
+         <h2>Max-tenure</h2>
+         <h2>Best Rate</h2>
+         <p>2.0</p>
+         <p>3-6 Months</p>
+         <p>3% p.m</p>
+         </div>
+
+   </a>
+
+<div class="cardContainer">
+   <a href="apply.php" class="fi">
+      <div class="card" style="background-color:wheat;">
+         <h2>Processing Fees</h2>
+         <h2>Max-tenure</h2>
+         <h2>Best Rate</h2>
+         <p>2.0</p>
+         <p>3-6 Months</p>
+         <p>3% p.m</p>
+         </div>
+   </a>
+
+<div class="cardContainer">
+   <a href="apply.php" class="fi">
+      <div class="card" style="background-color:wheat;">
+         <h2>Processing Fees</h2>
+         <h2>Max-tenure</h2>
+         <h2>Best Rate</h2>
+         <p>2.0</p>
+         <p>3-6 Months</p>
+         <p>3% p.m</p>
+         </div>
+   </a>
+
+</div>
+</div>
+</body>
+</html>
